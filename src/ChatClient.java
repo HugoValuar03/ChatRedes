@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class ChatClient {
     public static void main(String[] args) {
-        String serverAddress = "192.168.10.117"; // Endereço do servidor (ajuste para teste remoto)
+        String serverAddress = "locahost"; // Endereço do servidor (ajuste para teste remoto)
         int serverPort = 5000; // Porta do servidor
 
         try (Socket socket = new Socket(serverAddress, serverPort);
